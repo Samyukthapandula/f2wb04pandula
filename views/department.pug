@@ -2,4 +2,9 @@ extends layout
 
 block content
   h1= title
-  
+  -let results=[{Department_id:11,Department_name:"Accounting",Department_location:"Missouri" },{Department_id:22, Department_name: "Engineering", Department_location:"California" },{Department_id:33, Department_name: "Sales", Department_location:"Chicago" }]
+  div(class="container-fluid")
+  div(class="row")
+    each dept,index in results
+     div(class="col-sm-2") #{dept.Department_id}- #{dept.Department_name}- #{dept.Department_location}
+
