@@ -2,5 +2,5 @@
 Second server
 https://f2wb04pandula.onrender.com/
 
-Class - Department 
-Attributes - Department_id(number),Department_name(String),Department_location(String)
+Class - Dog 
+Attributes - Dog_age(number),Dog_breed(String),Dog_speciality(String)
